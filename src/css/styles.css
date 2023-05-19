@@ -80,7 +80,7 @@ main {
 }
 
 .container header #btn-search:hover {
-  background-color: hotpink;
+  background-color: blue;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -106,7 +106,7 @@ main {
 .container .profile-data .info img{
   width: 50%;
   border-radius: 50%;
-  border: 10px solid hotpink;
+  border: 10px solid blue;
 }
 
 .container .profile-data .info h1{
@@ -144,12 +144,37 @@ main {
 }
 
 .container .profile-data .repositories ul li a:hover{
-  background-color:hotpink;
+  background-color: blue;
   color: #fff
+}
+
+.repo-info{
+  margin-top: 10px;
+}
+
+.repo-info span{
+  background-color: deepskyblue;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: white;
 }
 
 .container .profile-data.hide{
   display: none;
+}
+
+.events-data h2 {
+  margin-bottom: 30px;
+}
+
+.events-data li {
+  margin-bottom: 15px;
+}
+
+.repo-name {
+  font-weight: bold;
 }
 
 @media (max-width: 1280px) {
